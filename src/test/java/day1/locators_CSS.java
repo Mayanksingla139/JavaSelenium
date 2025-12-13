@@ -3,8 +3,11 @@ package day1;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.Test;
+
+import java.security.Key;
 
 public class locators_CSS {
 
@@ -25,6 +28,18 @@ public class locators_CSS {
 
         // test Step 2: tag class tag.className
         driver.findElement(By.cssSelector("img.s-image")).click();
+        Thread.sleep(2000);
+
+        // test step 3: tag attribute tag[attribute = value]
+        WebElement tagSelector = driver.findElement(By.cssSelector("input[id=twotabsearchtextbox]"));
+        tagSelector.sendKeys(Keys.CONTROL, "A");
+        tagSelector.sendKeys(Keys.DELETE);
+        tagSelector.sendKeys("Mobiles" + Keys.ENTER);
+        Thread.sleep(2000);
+
+        // test step 4: tag Class attribute tag.className[attribute = value]
+        WebElement tagClassNameAttribute = driver.findElement(By.cssSelector("img.s-image[data-image-index=\"1\"]"));
+        tagClassNameAttribute.click();
         Thread.sleep(2000);
 
 
