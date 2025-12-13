@@ -53,6 +53,12 @@ public class locator_Xpath {
             System.out.println("Result not displayed Test case failed");
         }
 
+        // Chained xpath
+        driver.findElement(By.xpath("//a/div/img[@class = \"s-image\"]")).click();
+        Thread.sleep(2000);
+
+        // Learn about xpath axes -> great topic to find locator for more dynamical pages
+
 
         //close browser
         driver.quit();
