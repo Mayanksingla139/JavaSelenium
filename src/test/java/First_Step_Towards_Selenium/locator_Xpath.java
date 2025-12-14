@@ -1,4 +1,4 @@
-package firstStepTowardsSelenium;
+package First_Step_Towards_Selenium;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;

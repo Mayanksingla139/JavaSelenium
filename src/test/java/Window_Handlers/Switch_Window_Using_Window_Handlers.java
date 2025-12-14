@@ -9,7 +9,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Set;
 
-public class SwitchWindowUsingWindowHandlers {
+public class Switch_Window_Using_Window_Handlers {
 
     public static void main(String[] args){
 
