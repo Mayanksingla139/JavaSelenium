@@ -5,10 +5,8 @@ import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.FluentWait;
 import org.openqa.selenium.support.ui.Wait;
-import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.time.Duration;
 import java.util.NoSuchElementException;
@@ -45,7 +43,7 @@ public class Wait_Methods {
 //        WebDriver driver = new ChromeDriver();
 //        driver.get("https://www.amazon.com/");
 //        driver.manage().window().maximize();
-//        driver.findElement(By.className("a-button-text")). click();
+//        driver.findElement(By.className("a-button-text")).click();
 //        WebDriverWait myWait = new WebDriverWait(driver, Duration.ofSeconds(10));  // declaration
 //        // how we use it
 //        WebElement SearchBar = myWait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//*[@id=\"twotabsearchtextbox\"]")));
