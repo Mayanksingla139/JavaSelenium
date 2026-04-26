@@ -1,4 +1,4 @@
-package TestingUsingTestNg;
+package UnderstandingTestNgFeatures;
 
 import org.testng.annotations.Test;
 

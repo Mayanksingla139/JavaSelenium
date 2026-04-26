@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="Suite">
+
+    <test name="Test" thread-count="5">
+
+        <groups>
+            <run>
+                <include name="Sanity"/>
+                <exclude name="Regression"/>
+            </run>
+        </groups>
+
+        <classes>
+            <class name="UnderstandingTestNgFeatures.Grouping.LoginSanityGroup"/>
+            <class name="UnderstandingTestNgFeatures.Grouping.SignupRegressionGroup"/>
+            <class name="UnderstandingTestNgFeatures.Grouping.PaymentBothGroup"/>
+
+        </classes>
+    </test>
+
+</suite>

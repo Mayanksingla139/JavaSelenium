@@ -5,7 +5,8 @@
 
     <test name="Test" thread-count="5">
         <classes>
-            <class name="UnderstandingTestNgFeatures.FirstTestCase"/>
+            <class name="UnderstandingTestNgFeatures.Annotations.Test1Annotation"/>
+            <class name="UnderstandingTestNgFeatures.Annotations.Test2Annotation"/>
         </classes>
     </test>
 
