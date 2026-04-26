@@ -25,7 +25,7 @@ public class ParallelTestBrowserTesting {
                 driver = new EdgeDriver();
                 break;
             default:
-                System.out.println("invalid browser");
+                System.out.println("Invalid Browser");
                 return;
         }
 
