@@ -11,7 +11,6 @@ import org.testng.annotations.Test;
 
 import java.time.Duration;
 
-@Listeners(UnderstandingTestNgFeatures.Listener.class)
 public class ParallelTestBrowserTesting {
 
     WebDriver driver;

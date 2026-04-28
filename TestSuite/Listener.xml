@@ -4,7 +4,7 @@
 <suite name="Suite">
     
     <listeners>
-        <listener class-name="UnderstandingTestNgFeatures.Listener"/>
+        <listener class-name="UnderstandingTestNgFeatures.ExtentReportListener"/>
     </listeners>
 
     <test name="TestChrome">
